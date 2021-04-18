@@ -26,7 +26,7 @@
             <div class="shop-sidebar"> 
               
               <!-- Category -->
-              <h5 class="shop-tittle margin-bottom-30">category</h5>
+              <h5 class="shop-tittle margin-bottom-30">Danh mục</h5>
               <ul class="shop-cate">
               <?php
                     $sql_category = mysqli_query($con,"SELECT * FROM tbl_category");
@@ -39,8 +39,9 @@
               </ul>
               
               <!-- FILTER BY PRICE -->
-              <h5 class="shop-tittle margin-top-60 margin-bottom-30">FILTER BY PRICE</h5>
+              <h5 class="shop-tittle margin-top-60 margin-bottom-30">Lọc theo giá</h5>
               <ul class="shop-tags">
+                <li><input type="radio" id="ckPrice" name="filerPrice" value="0" style="margin: .4rem;"><label style="font: 1.5rem 'Fira Sans', sans-serif;" > 0 - 500.000</label></li>
                 <li><input type="radio" id="ckPrice" name="filerPrice" value="0" style="margin: .4rem;"><label style="font: 1.5rem 'Fira Sans', sans-serif;" >500.000 - 1.000.000 VND</label></li>
                 <li><input type="radio" id="ckPrice" name="filerPrice" value="1" style="margin: .4rem;"><label style="font: 1.5rem 'Fira Sans', sans-serif;" >1.000.000 - 1.500.000 VND</label></li>
                 <li><input type="radio" id="ckPrice" name="filerPrice" value="2" style="margin: .4rem;"><label style="font: 1.5rem 'Fira Sans', sans-serif;" >1.500.000 - 2.000.000 VND</label></li>
@@ -309,9 +310,8 @@
         
         <!-- Main Heading -->
         <div class="heading text-center">
-          <h4>about XTSPORTS</h4>
-          <p>Phasellus lacinia fermentum bibendum. Interdum et malesuada fames ac ante ipsumien lacus, eu posuere odio luctus non. Nulla lacinia,
-            eros vel fermentum consectetur, risus purus tempc, et iaculis odio dolor in ex. </p>
+          <h4>Thông tin về XTSPORTS</h4>
+          <p>Cửa hàng cung cấp đồ thể thao lớn nhất Sài Gòn </p>
         </div>
         
         <!-- Social Icons -->

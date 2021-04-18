@@ -71,7 +71,7 @@
           <!-- NAV -->
           <div class="collapse navbar-collapse" id="nav-open-btn">
             <ul class="nav">
-              <li class="dropdown active"><a href="/ecommerce-php/views/page/index.php" class="dropdown-toggle" >Home</a>
+              <li class="dropdown active"><a href="/ecommerce-php/views/page/index.php" class="dropdown-toggle" >Trang chủ</a>
                 <!-- <ul class="dropdown-menu">
                   <li> <a href="index.html">Index Default</a> </li>
                   <li> <a href="index-1.html">Index 2</a> </li>
@@ -101,7 +101,7 @@
                   <li> <a href="blog-detail_01.html">Blog Detail 01 </a> </li>
                 </ul> -->
               </li>
-              <li> <a href="">About </a> </li>
+              <li> <a href="/ecommerce-php/views/dashboards/page/">Quản lý </a> </li>
               
               <!-- Two Link Option -->
               <!-- <li class="dropdown"> <a href="#." class="dropdown-toggle" data-toggle="dropdown">Designer</a>
@@ -220,12 +220,12 @@
                             $infoUser  = mysqli_fetch_array($user);
                     ?>
                     <h6>HELLO! <?php echo $infoUser['name']; ?></h6>
-                    <li><a href="/ecommerce-php/views/page/login.php" >LOG OUT</a></li>
+                    <li><a href="/ecommerce-php/views/page/login.php" >Đăng xuất</a></li>
                   <?php
                         
                           }else{
                     ?>
-                    <li><a href="/ecommerce-php/views/page/login.php" >LOG IN</a></li>
+                    <li><a href="/ecommerce-php/views/page/login.php" >Đăng nhập</a></li>
                   <?php
 
                           }

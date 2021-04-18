@@ -6,13 +6,13 @@
 <section class="sub-bnr" data-stellar-background-ratio="0.5" style="background-position: 0% -69px;">
     <div class="position-center-center">
       <div class="container">
-        <h4>CHECKOUT</h4>
+        <h4>Thanh toán</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula. 
           Sed feugiat, tellus vel tristique posuere, diam</p>
         <ol class="breadcrumb">
-          <li><a href="#">Home</a></li>
+          <li><a href="#">Trang chủ</a></li>
           <li><a href="#">SHOP</a></li>
-          <li class="active">CHECKOUT</li>
+          <li class="active">Thanh toán</li>
         </ol>
       </div>
     </div>
@@ -33,7 +33,7 @@
               
               <!-- ESTIMATE SHIPPING & TAX -->
               <div class="col-sm-7">
-                <h6>BILLING DETAILS</h6>
+                <h6>Chi tiết hóa đơn</h6>
                 <?php
                     $username = "";
                     $infoUser;
@@ -48,19 +48,19 @@
                     
                     <!-- Name -->
                     <li class="col-md-6">
-                      <label> *EMAIL
+                      <label> *Email
                         <input type="text" value="<?php echo $infoUser['name']; ?>" name="first-name" value="" placeholder="">
                       </label>
                     </li>
                     <!-- LAST NAME -->
                     <li class="col-md-6">
-                      <label> *PHONE
+                      <label> *SĐT
                         <input type="text" value="<?php echo $infoUser['phone']; ?>" name="last-name" value="" placeholder="">
                       </label>
                     </li>
                     <li class="col-md-6"> 
                       <!-- COMPANY NAME -->
-                      <label> *ADDRESS
+                      <label> *Địa chỉ
                         <input type="text" value="<?php echo $infoUser['address']; ?>"  name="company" value="" placeholder="">
                       </label>
                     </li>
@@ -162,7 +162,7 @@
               
               <!-- SUB TOTAL -->
               <div class="col-sm-5">
-                <h6>YOUR ORDER</h6>
+                <h6>Đơn hàng của bạn</h6>
                 <div class="order-place">
                   <div class="order-detail">
                   <?php
@@ -185,14 +185,14 @@
                     ?>
                     
                     <!-- SUB TOTAL -->
-                    <p class="all-total">TOTAL COST <span> <?php echo $total_money; ?> VND</span></p>
+                    <p class="all-total">Tổng <span> <?php echo $total_money; ?> VND</span></p>
                   </div>
                   <div class="pay-meth">
                     <ul>
                       <li>
                         <div class="radio">
                           <input type="radio" name="radio1" id="radio1" value="option1" checked="">
-                          <label for="radio1"> DIRECT BANK TRANSFER </label>
+                          <label for="radio1"> Chuyển tiền qua ngân hàng </label>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam erat turpis, pellentesque non leo eget, pulvinar pretium arcu. Mauris porta elit non.</p>
                       </li>
@@ -217,11 +217,11 @@
                       <li>
                         <div class="checkbox">
                           <input id="checkbox3-4" class="styled" type="checkbox">
-                          <label for="checkbox3-4"> I’VE READ AND ACCEPT THE <span class="color"> TERMS &amp; CONDITIONS </span> </label>
+                          <label for="checkbox3-4"> Tôi đã đọc và chấp nhận <span class="color"> Điều kiện &amp; CONDITIONS </span> </label>
                         </div>
                       </li>
                     </ul>
-                    <a class="btn  btn-dark pull-right margin-top-30 btnOrder">PLACE ORDER</a> </div>
+                    <a class="btn  btn-dark pull-right margin-top-30 btnOrder">Đặt hàng tận nơi</a> </div>
                 </div>
               </div>
             </div>
@@ -236,9 +236,8 @@
         
         <!-- Main Heading -->
         <div class="heading text-center">
-          <h4>about XTSPORTS</h4>
-          <p>Phasellus lacinia fermentum bibendum. Interdum et malesuada fames ac ante ipsumien lacus, eu posuere odio luctus non. Nulla lacinia,
-            eros vel fermentum consectetur, risus purus tempc, et iaculis odio dolor in ex. </p>
+          <h4>Thông tin về XTSPORTS</h4>
+          <p>Cửa hàng cung cấp đồ thể thao lớn nhất Sài Gòn </p>
         </div>
         
         <!-- Social Icons -->

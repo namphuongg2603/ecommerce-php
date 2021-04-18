@@ -5,12 +5,11 @@
 <section class="sub-bnr" data-stellar-background-ratio="0.5" style="background-position: 0% -67.4px;">
     <div class="position-center-center">
       <div class="container">
-        <h4>LOGIN</h4>
+        <h4>Đăng nhập</h4>
         <p></p>
         <ol class="breadcrumb">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">PAGES</a></li>
-          <li class="active">LOGIN</li>
+          <li><a href="#">Trang chủ</a></li>
+          <li class="active">Đăng nhập</li>
         </ol>
       </div>
     </div>
@@ -30,7 +29,7 @@
               
               <!-- ESTIMATE SHIPPING & TAX -->
               <div class="col-sm-7">
-                <h6>LOGIN YOUR ACCOUNT</h6>
+                <h6>Đăng nhập bằng tài khoản</h6>
                 <?php
                   
                   // if(isset($_SESSION['user']) != "" )
@@ -68,23 +67,25 @@
                     
                     <!-- Name -->
                     <li class="col-md-12">
-                      <label> USERNAME
+                      <label> Tên tài khoản
                         <input type="text" name="txtUserName" value="" placeholder="">
                       </label>
                     </li>
                     <!-- LAST NAME -->
                     <li class="col-md-12">
-                      <label> PASSWORD
+                      <label> Mật khẩu
                         <input type="password" name="txtPassword" value="" placeholder="">
                       </label>
                     </li>
                     
                     <!-- LOGIN -->
                     <li class="col-md-2">
-                      <button type="submit" name="btnLogin" class="btn">LOGIN</button>
+                      <button   type="submit" name="btnLogin" class="btn">Đăng nhập </button>
+                    </li>
+                    <li>
                     </li>
                     <li class="col-md-2">
-                      <button type="submit" id="btnRegister" class="btn">REGISTER</button>
+                      <button type="submit" id="btnRegister" class="btn">Đăng ký</button>
                     </li>
                     
                     <!-- CREATE AN ACCOUNT -->
@@ -108,7 +109,7 @@
               
               <!-- SUB TOTAL -->
               <div class="col-sm-5">
-                <h6>LOGIN WITH</h6>
+                <h6>Đăng nhập với</h6>
                 
                 <ul class="login-with">
                 	<li>
@@ -140,9 +141,8 @@
         
         <!-- Main Heading -->
         <div class="heading text-center">
-          <h4>about XTSPORTS</h4>
-          <p>Phasellus lacinia fermentum bibendum. Interdum et malesuada fames ac ante ipsumien lacus, eu posuere odio luctus non. Nulla lacinia,
-            eros vel fermentum consectetur, risus purus tempc, et iaculis odio dolor in ex. </p>
+          <h4>Thông tin về XTSPORTS</h4>
+          <p>Là cửa hàng cung cấp thể thao lớn nhất Tp. Hồ Chí Minh </p>
         </div>
         
         <!-- Social Icons -->
@@ -160,7 +160,7 @@
     <section class="news-letter padding-top-150 padding-bottom-150">
       <div class="container">
         <div class="heading light-head text-center margin-bottom-30">
-          <h4>NEWSLETTER</h4>
+          <h4>Bản tin</h4>
           <span>Phasellus lacinia fermentum bibendum. Interdum et malesuada fames ac ante ipsumien lacus, eu posuere odi </span> </div>
         <form>
           <input type="email" placeholder="Enter your email address" required="">
