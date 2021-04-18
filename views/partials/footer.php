@@ -7,7 +7,7 @@
           <p><i class="icon-pointer"></i> Street No. 12, Newyork 12, <br>
             MD - 123, USA.</p>
           <p><i class="icon-call-end"></i> 1.800.123.456789</p>
-          <p><i class="icon-envelope"></i> info@PAVSHOP.com</p>
+          <p><i class="icon-envelope"></i> info@XTSPORTS.com</p>
         </div>
       </div>
       
@@ -52,7 +52,7 @@
       <!-- Rights -->
       
       <div class="rights">
-        <p>©  2017 PAVSHOP All right reserved. </p>
+        <p>©  2017 XTSPORTS All right reserved. </p>
         <div class="scroll"> <a href="#wrap" class="go-up"><i class="lnr lnr-arrow-up"></i></a> </div>
       </div>
     </div>

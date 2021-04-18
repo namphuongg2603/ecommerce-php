@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="M_Adnan">
-<title>PAVSHOP - Multipurpose eCommerce HTML5 Template</title>
+<title>XTSPORTS - Multipurpose eCommerce HTML5 Template</title>
 
 <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
 <link rel="stylesheet" type="text/css" href="../../public/rs-plugin/css/settings.css" media="screen" />
@@ -62,7 +62,7 @@
       <div class="container"> 
         
         <!-- Logo -->
-        <div class="logo"> <a href="/ecommerce-php/views/page/index.php"><img class="img-responsive" src="../../public/images/logo.png" alt="" ></a> </div>
+        <div class="logo"> <a href="/ecommerce-php/views/page/index.php"><img class="img-responsive" src="../../public/images/XT.png" alt="" ></a> </div>
         <nav class="navbar ownmenu">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-open-btn" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"><i class="fa fa-navicon"></i></span> </button>
@@ -101,7 +101,7 @@
                   <li> <a href="blog-detail_01.html">Blog Detail 01 </a> </li>
                 </ul> -->
               </li>
-              <li> <a href="https://mwg.vn/">About </a> </li>
+              <li> <a href="">About </a> </li>
               
               <!-- Two Link Option -->
               <!-- <li class="dropdown"> <a href="#." class="dropdown-toggle" data-toggle="dropdown">Designer</a>

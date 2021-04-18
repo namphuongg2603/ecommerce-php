@@ -32,7 +32,7 @@
                 data-elementdelay="0.1" 
                 data-endelementdelay="0.1" 
                 data-endspeed="300" 
-                style="z-index: 7; font-size:18px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">The Latest Product from PAVSHOP</div>
+                style="z-index: 7; font-size:18px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">Sản phẩm mới nhất của XTSPORTS</div>
             <!-- LAYER NR. 2 -->
             <div class="tp-caption sfr font-regular tp-resizeme letter-space-4" 
                 data-x="center" data-hoffset="0" 
@@ -45,7 +45,7 @@
                 data-elementdelay="0.07" 
                 data-endelementdelay="0.1" 
                 data-endspeed="300" 
-                style="z-index: 6; font-size:78px; color:#fff; text-transform:uppercase; white-space: nowrap;">look beautiful </div>
+                style="z-index: 6; font-size:78px; color:#fff; text-transform:uppercase; white-space: nowrap;">Mới nhất </div>
             <!-- LAYER NR. 2 -->
             <div class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4" 
                 data-x="center" data-hoffset="0" 
@@ -58,7 +58,7 @@
                 data-elementdelay="0.07" 
                 data-endelementdelay="0.1" 
                 data-endspeed="300" 
-                style="z-index: 6; font-size:140px; color:#fff; text-transform:uppercase; white-space: nowrap;">this season </div>
+                style="z-index: 6; font-size:140px; color:#fff; text-transform:uppercase; white-space: nowrap;">Mùa giải </div>
             <!-- LAYER NR. 4 -->
             <div class="tp-caption sfb font-extra-bold tp-resizeme" 
                 data-x="center" data-hoffset="120"
@@ -71,7 +71,7 @@
                 data-elementdelay="0.07" 
                 data-endelementdelay="0.1" 
                 data-endspeed="300" 
-                style="z-index: 6; font-size:60px; color:#fff; text-transform:uppercase; white-space: nowrap;"><small class="font-regular">$</small> 299 </div>
+                style="z-index: 6; font-size:60px; color:#fff; text-transform:uppercase; white-space: nowrap;"><small class="font-regular"></small>150.000 </div>
             <!-- LAYER NR. 4 -->
             <div class="tp-caption lfb tp-scrollbelowslider tp-resizeme" 
                 data-x="center" data-hoffset="-120" 
@@ -83,7 +83,7 @@
                 data-endelementdelay="0.1" 
                 data-endspeed="300" 
                 data-scrolloffset="0"
-                style="z-index: 8;"><a href="/ecommerce-php/views/page/shop.php" class="btn">BUY NOW</a> </div>
+                style="z-index: 8;"><a href="/ecommerce-php/views/page/shop.php" class="btn">MUA NGAY</a> </div>
           </li>
           <?php
             } 
@@ -102,9 +102,8 @@
         
         <!-- Main Heading -->
         <div class="heading text-center">
-          <h4>new arrival</h4>
-          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula. 
-          Sed feugiat, tellus vel tristique posuere, diam</span> </div>
+          <h4>Hàng mới về</h4>
+          <span>Những mẫu áo của các đội bóng trong mùa giải mới nhất</span> </div>
       </div>
       
       <!-- New Arrival -->
@@ -275,7 +274,7 @@
         
         <!-- Main Heading -->
         <div class="heading text-center">
-          <h4>about PAVSHOP</h4>
+          <h4>about XTSPORTS</h4>
           <p>Phasellus lacinia fermentum bibendum. Interdum et malesuada fames ac ante ipsumien lacus, eu posuere odio luctus non. Nulla lacinia,
             eros vel fermentum consectetur, risus purus tempc, et iaculis odio dolor in ex. </p>
         </div>

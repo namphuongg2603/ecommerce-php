@@ -6,8 +6,7 @@
     <div class="position-center-center">
       <div class="container">
         <h4>LOGIN</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus maximus vehicula. 
-          Sed feugiat, tellus vel tristique posuere, diam</p>
+        <p></p>
         <ol class="breadcrumb">
           <li><a href="#">Home</a></li>
           <li><a href="#">PAGES</a></li>
@@ -141,7 +140,7 @@
         
         <!-- Main Heading -->
         <div class="heading text-center">
-          <h4>about PAVSHOP</h4>
+          <h4>about XTSPORTS</h4>
           <p>Phasellus lacinia fermentum bibendum. Interdum et malesuada fames ac ante ipsumien lacus, eu posuere odio luctus non. Nulla lacinia,
             eros vel fermentum consectetur, risus purus tempc, et iaculis odio dolor in ex. </p>
         </div>
