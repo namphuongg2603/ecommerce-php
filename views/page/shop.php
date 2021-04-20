@@ -41,11 +41,10 @@
               <!-- FILTER BY PRICE -->
               <h5 class="shop-tittle margin-top-60 margin-bottom-30">Lọc theo giá</h5>
               <ul class="shop-tags">
-                <li><input type="radio" id="ckPrice" name="filerPrice" value="0" style="margin: .4rem;"><label style="font: 1.5rem 'Fira Sans', sans-serif;" > 0 - 500.000</label></li>
-                <li><input type="radio" id="ckPrice" name="filerPrice" value="0" style="margin: .4rem;"><label style="font: 1.5rem 'Fira Sans', sans-serif;" >500.000 - 1.000.000 VND</label></li>
-                <li><input type="radio" id="ckPrice" name="filerPrice" value="1" style="margin: .4rem;"><label style="font: 1.5rem 'Fira Sans', sans-serif;" >1.000.000 - 1.500.000 VND</label></li>
-                <li><input type="radio" id="ckPrice" name="filerPrice" value="2" style="margin: .4rem;"><label style="font: 1.5rem 'Fira Sans', sans-serif;" >1.500.000 - 2.000.000 VND</label></li>
-                <li><input type="radio" id="ckPrice" name="filerPrice" value="3" style="margin: .4rem;"><label style="font: 1.5rem 'Fira Sans', sans-serif;" > > 2.000.000 VND</label></li>
+                <li><input type="radio" id="ckPrice" name="filerPrice" value="0" style="margin: .4rem;"><label style="font: 1.5rem 'Fira Sans', sans-serif;" > 0 - 200.000 VND</label></li>
+                <li><input type="radio" id="ckPrice" name="filerPrice" value="1" style="margin: .4rem;"><label style="font: 1.5rem 'Fira Sans', sans-serif;" >200.000 - 1.000.000 VND</label></li>
+                <li><input type="radio" id="ckPrice" name="filerPrice" value="2" style="margin: .4rem;"><label style="font: 1.5rem 'Fira Sans', sans-serif;" >1.000.000 - 1.500.000 VND</label></li>
+                <li><input type="radio" id="ckPrice" name="filerPrice" value="3" style="margin: .4rem;"><label style="font: 1.5rem 'Fira Sans', sans-serif;" > > 1.500.000 VND</label></li>
               </ul>
               <!-- TAGS -->
               <!-- <h5 class="shop-tittle margin-top-60 margin-bottom-30">FILTER BY COLORS</h5>
@@ -170,7 +169,7 @@
             ?>
             
             <?php
-                $sql_product = mysqli_query($con,"SELECT * FROM tbl_sanpham WHERE sanpham_gia > 500000 AND sanpham_gia < 1000000 ORDER BY sanpham_id DESC");
+                $sql_product = mysqli_query($con,"SELECT * FROM tbl_sanpham WHERE sanpham_gia > 0 AND sanpham_gia < 200000 ORDER BY sanpham_id DESC");
                 while($row_sanpham = mysqli_fetch_array($sql_product)){ 
             ?>
               <!-- Item -->
@@ -200,7 +199,7 @@
             ?>
               
             <?php
-                $sql_product = mysqli_query($con,"SELECT * FROM tbl_sanpham WHERE sanpham_gia > 1000000 AND sanpham_gia < 1500000 ORDER BY sanpham_id DESC");
+                $sql_product = mysqli_query($con,"SELECT * FROM tbl_sanpham WHERE sanpham_gia > 200000 AND sanpham_gia < 1000000 ORDER BY sanpham_id DESC");
                 while($row_sanpham = mysqli_fetch_array($sql_product)){ 
             ?>
               <!-- Item -->
@@ -230,7 +229,7 @@
             ?>
 
             <?php
-                $sql_product = mysqli_query($con,"SELECT * FROM tbl_sanpham WHERE sanpham_gia > 1500000 AND sanpham_gia < 2000000 ORDER BY sanpham_id DESC");
+                $sql_product = mysqli_query($con,"SELECT * FROM tbl_sanpham WHERE sanpham_gia > 1000000 AND sanpham_gia < 1500000 ORDER BY sanpham_id DESC");
                 while($row_sanpham = mysqli_fetch_array($sql_product)){ 
             ?>
               <!-- Item -->
@@ -260,7 +259,7 @@
             ?>
              
              <?php
-                $sql_product = mysqli_query($con,"SELECT * FROM tbl_sanpham WHERE sanpham_gia > 2000000 ORDER BY sanpham_id DESC");
+                $sql_product = mysqli_query($con,"SELECT * FROM tbl_sanpham WHERE sanpham_gia > 1500000 ORDER BY sanpham_id DESC");
                 while($row_sanpham = mysqli_fetch_array($sql_product)){ 
             ?>
               <!-- Item -->
@@ -355,31 +354,31 @@
         let from;
         let to;
         if( value == "0" ){
-            from = 500000;
-            to   = 1000000;
+            from = 0;
+            to   = 200000;
             $(".allList").hide();
             $(".priceBth").hide();
             $(".priceKha").hide();
             $(".priceCao").hide();
             $(".priceOld").show();
         }else if( value == "1" ){
-            from = 1000000;
-            to   = 1500000;
+            from = 200000;
+            to   = 1000000;
             $(".allList").hide();
             $(".priceOld").hide();
             $(".priceKha").hide();
             $(".priceCao").hide();
             $(".priceBth").show();
         }else if( value == "2" ){
-            from = 1500000;
-            to   = 2000000;
+            from = 1000000;
+            to   = 1500000;
             $(".allList").hide();
             $(".priceBth").hide();
             $(".priceKha").hide();
             $(".priceCao").hide();
             $(".priceKha").show();
         }else if( value == "3" ){
-            from = 200000;
+            from = 1500000;
             $(".allList").hide();
             $(".priceBth").hide();
             $(".priceKha").hide();

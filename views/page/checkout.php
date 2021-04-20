@@ -180,7 +180,7 @@
                     <?php
                             }
                         }else{
-                            echo "Khong co san pham nao trong gio hang";
+                            echo "Không có sản phẩm nào trong giỏ hàng";
                         }
                     ?>
                     
@@ -194,7 +194,6 @@
                           <input type="radio" name="radio1" id="radio1" value="option1" checked="">
                           <label for="radio1"> Chuyển tiền qua ngân hàng </label>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam erat turpis, pellentesque non leo eget, pulvinar pretium arcu. Mauris porta elit non.</p>
                       </li>
                       <!-- <li>
                         <div class="radio">
@@ -217,11 +216,11 @@
                       <li>
                         <div class="checkbox">
                           <input id="checkbox3-4" class="styled" type="checkbox">
-                          <label for="checkbox3-4"> Tôi đã đọc và chấp nhận <span class="color"> Điều kiện &amp; CONDITIONS </span> </label>
+                          <label for="checkbox3-4"> Tôi đã đọc và chấp nhận <span class="color"> Điều kiện &amp; Điều khoản </span> </label>
                         </div>
                       </li>
                     </ul>
-                    <a class="btn  btn-dark pull-right margin-top-30 btnOrder">Đặt hàng tận nơi</a> </div>
+                    <a class="btn  btn-dark pull-right margin-top-30 btnOrder">Đặt hàng</a> </div>
                 </div>
               </div>
             </div>

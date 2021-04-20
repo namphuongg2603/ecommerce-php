@@ -85,8 +85,9 @@
                     <li>
                     </li>
                     <li class="col-md-2">
-                      <button type="submit" id="btnRegister" class="btn">Đăng ký</button>
                     </li>
+              <div a href="#." class="btn"type="submit" id="btnRegister" class="btn">Đăng ký</a> </div>
+
                     
                     <!-- CREATE AN ACCOUNT -->
                     <!-- <li class="col-md-4">

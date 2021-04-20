@@ -215,7 +215,7 @@ Latest commit 30697d2 4 hours ago
                 <input type="text" value="" placeholder="ENTER YOUR CODE IF YOU HAVE ONE">
                 <button type="submit" class="btn btn-small btn-dark">APPLY CODE</button>
               </form>
-              <div class="coupn-btn"> <a href="#." class="btn">continue shopping</a> <a href="#." class="btn">update cart</a> </div>
+              <div class="coupn-btn"> <a href="#." class="btn">continue shopping</a> <a href="#." class="btn">Thanh Toán</a> </div>
             </div>
            
             <!-- SUB TOTAL -->

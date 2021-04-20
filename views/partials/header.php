@@ -271,14 +271,14 @@
                   </li>
                   <li class="margin-0">
                     <div class="row">
-                      <div class="col-xs-6"> <a href="/ecommerce-php/views/page/cart.php" class="btn">VIEW CART</a></div>
+                      <div class="col-xs-6"> <a href="/ecommerce-php/views/page/cart.php" class="btn">Giỏ Hàng</a></div>
                       <?php
                           $username = "";
                           if(isset($_SESSION['user']) != ""){
                               $username = $_SESSION['user'];
-                              echo "<div class='col-xs-6'> <a href='/ecommerce-php/views/page/checkout.php' class='btn'>CHECK OUT</a></div>";
+                              echo "<div class='col-xs-6'> <a href='/ecommerce-php/views/page/checkout.php' class='btn'>Thanh Toán</a></div>";
                           }else{
-                              echo "<div class='col-xs-6'> <a href='/ecommerce-php/views/page/login.php' class='btn'>LOGIN</a></div>";
+                              echo "<div class='col-xs-6'> <a href='/ecommerce-php/views/page/login.php' class='btn'>Đăng Nhập</a></div>";
                           }
                       ?>
                     </div>
