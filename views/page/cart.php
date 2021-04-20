@@ -1,34 +1,4 @@
-Skip to content
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@namphuongg2603 
-namphuongg2603
-/
-ecommerce-php
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-ecommerce-php/views/page/cart.php /
-@namphuongg2603
-namphuongg2603 php
-Latest commit 30697d2 4 hours ago
- History
- 1 contributor
-269 lines (248 sloc)  11 KB
-  
 <?php
     include_once('../partials/header.php');
     include_once('../../database/db.class.php');
@@ -215,7 +185,7 @@ Latest commit 30697d2 4 hours ago
                 <input type="text" value="" placeholder="ENTER YOUR CODE IF YOU HAVE ONE">
                 <button type="submit" class="btn btn-small btn-dark">APPLY CODE</button>
               </form>
-              <div class="coupn-btn"> <a href="#." class="btn">continue shopping</a> <a href="#." class="btn">Thanh Toán</a> </div>
+              <div class="coupn-btn"> <a href="/ecommerce-php/views/page/shop.php" class="btn">Tiếp tục mua</a> <a href="/ecommerce-php/views/page/checkout.php" class="btn btnOrder">Thanh Toán</a> </div>
             </div>
            
             <!-- SUB TOTAL -->
@@ -297,16 +267,3 @@ Latest commit 30697d2 4 hours ago
     } )
 
 </script>
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete

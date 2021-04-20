@@ -32,11 +32,15 @@
                     $sql_category = mysqli_query($con,"SELECT * FROM tbl_category");
                     while($row_sanpham = mysqli_fetch_array($sql_category)){ 
                 ?>
+                
                 <li><a href="/ecommerce-php/views/page/shop.php?cateID='<?php echo $row_sanpham['category_id'] ?>'"> <?php echo $row_sanpham['category_name'] ?></a></li>
                 <?php
                     } 
                 ?>
               </ul>
+              <h5 class="shop-tittle margin-top-60 margin-bottom-30">Tìm kiếm theo tên</h5>
+                  <input type="text" class="form-control txtSearch" placeholder="">
+
               
               <!-- FILTER BY PRICE -->
               <h5 class="shop-tittle margin-top-60 margin-bottom-30">Lọc theo giá</h5>
@@ -386,5 +390,22 @@
             $(".priceCao").show();
         }
     })
+
+    // $(".txtSearch").on("keyup", function() {
+    //   var value = $(this).val().toLowerCase();
+    //   $(".listPro .allList").filter(function() {
+    //     $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    //   });
+    // });
+   
+      // Stop default click action in browser
+      // e.preventDefault();
+      // let categoryID = $(this).attr("_categoryID");
+      // $.ajax($(e.target).attr("href"), {
+      //   cache:false,
+      //   success:function(data){
+
+      //   }
+
 
 </script>

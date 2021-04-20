@@ -7,6 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="M_Adnan">
+<meta http-equiv='cache-control' content='no-cache'>
+<meta http-equiv='expires' content='0'>
+<meta http-equiv='pragma' content='no-cache'>
 <title>XTSPORTS - Multipurpose eCommerce HTML5 Template</title>
 
 <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
@@ -220,7 +223,7 @@
                             $infoUser  = mysqli_fetch_array($user);
                     ?>
                     <h6>HELLO! <?php echo $infoUser['name']; ?></h6>
-                    <li><a href="/ecommerce-php/views/page/login.php" >Đăng xuất</a></li>
+                    <li><a href="/ecommerce-php/views/page/clearSession.php" >Đăng xuất</a></li>
                   <?php
                         
                           }else{
@@ -262,12 +265,12 @@
                   <?php
                       }
                     }else{
-                        echo "Khong co san pham nao trong gio hang";
+                        echo "Không có sản phẩm nào trong giỏ hàng";
                     }
                   ?>
                   
                   <li>
-                    <h5 class="text-center">SUBTOTAL: <?php echo $total_money; ?> USD</h5>
+                    <h5 class="text-center">Tổng: <?php echo $total_money; ?> VND</h5>
                   </li>
                   <li class="margin-0">
                     <div class="row">
